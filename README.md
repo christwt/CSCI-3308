@@ -1,2 +1,3 @@
 # CSCI-3308
-CSCI 3308 Lab 3 files
+Will Christie
+CSCI 3308 Lab 3
