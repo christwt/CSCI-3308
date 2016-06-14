@@ -1,6 +1,4 @@
-# CSCI-3308
+# Software Engineering Methods and Tools CSCI-3308
 
-Will Christie
-Partner: Paul Laliberte
+Focuses on software engineering methods and tools for application development, including design and system organization; using and creating reusable libraries; building, testing, and debugging; and performance evaluation.
 
-CSCI 3308 Lab 3
