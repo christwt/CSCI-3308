@@ -1,0 +1,5 @@
+# build an executable for Student example
+all: Student.cpp Driver.cpp			        #reference for main target:Dependencies
+	g++ -std=c++11 -o studs Student.cpp Driver.cpp  # -o used to create object file studs
+clean: 
+	rm studs					#clean up after ourself

@@ -1,0 +1,9 @@
+# build an executable for Student example Seperate Compilation from Linking
+studs: Student.o Driver.o			        #reference for main target:Dependencies on .o
+	g++ -std=c++11 -o studs Student.o Driver.o      #compile object files
+Student.o: Student.cpp Student.h			#new target is our object file			
+	g++ -std=c++11 -c Student.cpp			#-c used to compile only
+Driver.o: Driver.cpp
+	g++ -std=c++11 -c Driver.cpp
+clean: 
+	rm studs Student.o Driver.o			#clean up after ourself
